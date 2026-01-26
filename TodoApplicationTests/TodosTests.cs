@@ -1,14 +1,14 @@
-using CleanTodo.Application.DTOS;
-using CleanTodo.Application.Entities;
-using CleanTodo.Application.Exceptions;
-using CleanTodo.Application.Service.Todo;
-using CleanTodo.Application.UseCase;
-using CleanTodo.Application.Validators;
-using CleanTodo.Domain.Interfaces.Repositories;
+using ESP.Application.DTOS;
+using ESP.Application.Entities;
+using ESP.Application.Exceptions;
+using ESP.Application.Service.Todo;
+using ESP.Application.UseCase;
+using ESP.Application.Validators;
+using ESP.Domain.Interfaces.Repositories;
 using FluentValidation;
 using Moq;
 
-namespace TodoApplicationTests;
+namespace ESPTests;
 
 public class TodosTests
 {
