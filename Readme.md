@@ -12,4 +12,5 @@ dotnet ef dbcontext scaffold "server=localhost;port=3306;database=LE_NOM_DE_TA_B
 
 La ligne de commande va te produire un nouveau fichier AppDbContext que tu pourras utiliser pour remplacer celui qui est existant. Toutes tes entités seront ainsi crées à partir de la base de données.
 
+Tu dois donc couper coller le fichier AppDbcontext.cs de la couche domain vers la couche infrastructure. 
 
